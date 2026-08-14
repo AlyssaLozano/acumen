@@ -20,7 +20,7 @@ const sections = [
     title: 'CompTIA Trademark Notice',
     content: [
       'Acumen Career Academy is not affiliated with, endorsed by, or authorized by CompTIA, Inc. in any way.',
-      'CompTIA Security+\u00ae and CompTIA CySA+\u00ae are registered trademarks of CompTIA Properties, LLC. All rights reserved.',
+      'CompTIA Security+\u00ae is a registered trademark of CompTIA Properties, LLC. CCNA is a registered trademark of Cisco Systems, Inc. Blue Team Level 1 (BTL1) is a certification of Security Blue Team. All rights reserved.',
       'References to CompTIA certifications are made solely to describe the certification alignment of our programs. Enrollment in or completion of any Acumen Career Academy program does not constitute or imply affiliation with or endorsement by CompTIA.',
     ],
   },
@@ -39,9 +39,9 @@ const sections = [
     icon: 'ri-money-dollar-circle-line',
     title: 'Tuition & Total Program Cost',
     content: [
-      'The total direct-enrollment cost for Acumen Career Academy programs is $4,725 per program. This amount is comprised of the following itemized charges: Program Tuition - $4,500; Application Fee - $150 (non-refundable); Course Materials Fee - $75. There are no additional fees beyond these three line items for direct-enrollment students.',
-      'Examination fees for CompTIA Security+, CompTIA CySA+, or any other third-party certification are NOT included in the $4,725 total. Exam voucher costs are the sole responsibility of the student and are disclosed separately under the Exam Fees section below.',
-      'Workforce-sponsored (WIOA) enrollments are billed at a separate institutional rate of $8,500, which reflects the inclusion of career support services provided under that pathway. The student\'s out-of-pocket cost under an approved WIOA sponsorship is $0. The $4,725 direct-enrollment rate is not available under the WIOA pathway; these are two distinct pricing structures.',
+      'Direct-enrollment cost is $6,725 for the Cybersecurity Practitioner Program (Program Tuition $6,500; Application Fee $150 non-refundable; Course Materials Fee $75) and $4,725 for the Cybersecurity Operations Analyst Skills Program (Program Tuition $4,500; Application Fee $150 non-refundable; Course Materials Fee $75). There are no additional fees beyond these line items for direct-enrollment students.',
+      'Examination fees for CompTIA Security+, Blue Team Level 1 (BTL1), CCNA Cybersecurity, or any other third-party certification are NOT included in program tuition. Exam voucher costs are the sole responsibility of the student and are disclosed separately under the Exam Fees section below.',
+      'Workforce-sponsored (WIOA) enrollments are billed at a separate institutional rate of $8,500, which reflects the inclusion of career support services provided under that pathway. The student\'s out-of-pocket cost under an approved WIOA sponsorship is $0. The direct-enrollment rate is not available under the WIOA pathway; these are two distinct pricing structures.',
       'All tuition and fees are due prior to the start of the program unless a written payment plan has been authorized by Acumen Career Academy. The enrollment agreement signed at the time of enrollment constitutes the binding record of all charges. Acumen Career Academy reserves the right to update tuition and fees; any changes will not affect students who have already executed an enrollment agreement.',
     ],
   },
@@ -50,7 +50,7 @@ const sections = [
     icon: 'ri-price-tag-3-line',
     title: 'Exam Fees',
     content: [
-      'Examination fees for CompTIA Security+, CompTIA CySA+, or any other third-party certification are NOT included in tuition unless explicitly stated in writing in the enrollment agreement at the time of enrollment.',
+      'Examination fees for CompTIA Security+, Blue Team Level 1 (BTL1), CCNA Cybersecurity, or any other third-party certification are NOT included in tuition unless explicitly stated in writing in the enrollment agreement at the time of enrollment.',
       'Students are responsible for all costs associated with certification examinations, including voucher purchase, scheduling fees, and any retake fees.',
     ],
   },
@@ -106,7 +106,8 @@ const sections = [
 ];
 
 const feeBreakdown = [
-  { label: 'Program Tuition', amount: '$4,500' },
+  { label: 'Program Tuition - Practitioner', amount: '$6,500' },
+  { label: 'Program Tuition - Cyber Ops', amount: '$4,500' },
   { label: 'Application Fee (non-refundable)', amount: '$150' },
   { label: 'Course Materials Fee', amount: '$75' },
 ];
@@ -202,7 +203,7 @@ export default function Disclosures() {
                       ))}
                       <div className="flex items-center justify-between px-5 py-4 bg-gold/5">
                         <span className="font-sans text-ice text-sm font-bold">Total Direct-Enrollment Cost</span>
-                        <span className="font-mono text-gold text-base font-bold">$4,725</span>
+                        <span className="font-mono text-gold text-base font-bold">$6,725 / $4,725</span>
                       </div>
                     </div>
                     <div className="bg-navy-950/60 px-5 py-3 border-t border-gold/10">

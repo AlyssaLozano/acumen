@@ -6,7 +6,7 @@ const partnershipTypes = [
   {
     icon: 'ri-user-received-2-line',
     title: 'Graduate Hiring Pipeline',
-    desc: 'Access our qualified graduates for direct hire placement in cybersecurity analyst, SOC, and IT security roles. Every CySA+ graduate arrives with a verifiable portfolio you can review before the interview.',
+    desc: 'Access our qualified graduates for direct hire placement in cybersecurity analyst, SOC, and IT security roles. Every Cyber Ops graduate arrives with a verifiable portfolio you can review before the interview.',
   },
   {
     icon: 'ri-building-2-line',
@@ -26,12 +26,12 @@ const partnershipTypes = [
 ];
 
 const gradProfile = [
-  { label: 'Certifications Pursued', value: 'CompTIA Security+ · CySA+' },
+  { label: 'Certifications Pursued', value: 'CompTIA Security+ · Blue Team Level 1 (BTL1) · Cisco CCNA' },
   { label: 'Tools Trained On', value: 'Splunk, Sigma, Wireshark, TheHive, n8n, Chainsaw' },
   { label: 'Frameworks Applied', value: 'MITRE ATT&CK, Cyber Kill Chain, Diamond Model' },
   { label: 'Training Format', value: 'Live synchronous instruction, small cohorts' },
   { label: 'Program Length', value: '8 weeks to completion' },
-  { label: 'Portfolio Artifacts', value: '4 verifiable deliverables (CySA+ track)' },
+  { label: 'Portfolio Artifacts', value: '4 verifiable deliverables (Cyber Ops track)' },
 ];
 
 const portfolioArtifacts = [
@@ -118,7 +118,7 @@ export default function EmployersContent() {
                 {
                   icon: 'ri-folder-chart-line',
                   title: 'Portfolio, Not Just a Certificate',
-                  desc: 'CySA+ graduates bring 4 verifiable artifacts you can review before the interview. Investigation reports, detection rules, SOAR workflows, and case evidence.',
+                  desc: 'Cyber Ops graduates bring 4 verifiable artifacts you can review before the interview. Investigation reports, detection rules, SOAR workflows, and case evidence.',
                 },
                 {
                   icon: 'ri-tools-line',
@@ -173,10 +173,10 @@ export default function EmployersContent() {
             <div className="glass-card border border-gold/20 rounded-2xl p-5">
               <div className="flex items-center gap-2 mb-4">
                 <i className="ri-folder-chart-line text-gold text-lg" />
-                <p className="font-mono text-gold text-xs tracking-widest">WHAT EVERY CYSA+ GRADUATE BRINGS</p>
+                <p className="font-mono text-gold text-xs tracking-widest">WHAT EVERY CYBER OPS GRADUATE BRINGS</p>
               </div>
               <p className="font-sans text-steel text-sm leading-relaxed mb-4">
-                CySA+ graduates arrive with four verifiable artifacts you can review before the interview.
+                Cyber Ops graduates arrive with four verifiable artifacts you can review before the interview.
                 Not a transcript. Not a quiz score. Actual work product.
               </p>
               <div className="grid grid-cols-2 gap-3">

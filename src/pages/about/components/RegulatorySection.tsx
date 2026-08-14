@@ -40,7 +40,7 @@ export default function RegulatorySection() {
                 {
                   icon: 'ri-error-warning-line',
                   title: 'Important Disclosures',
-                  desc: 'Acumen Career Academy is not affiliated with, endorsed by, or authorized by CompTIA. CompTIA Security+ and CySA+ are registered trademarks of CompTIA, Inc.',
+                  desc: 'Acumen Career Academy is not affiliated with, endorsed by, or authorized by CompTIA, Cisco, or Security Blue Team. CompTIA Security+ is a registered trademark of CompTIA, Inc.; CCNA is a registered trademark of Cisco Systems, Inc.; Blue Team Level 1 (BTL1) is a certification of Security Blue Team.',
                 },
                 {
                   icon: 'ri-information-line',

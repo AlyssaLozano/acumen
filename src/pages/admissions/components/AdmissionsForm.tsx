@@ -108,9 +108,9 @@ export default function AdmissionsForm() {
                   <div className="flex justify-between items-start mb-2">
                     <div>
                       <span className="font-sans text-steel text-sm block">Direct Enrollment (Self-Pay)</span>
-                      <span className="font-mono text-steel/40 text-xs">Tuition $4,500 + $150 app + $75 materials</span>
+                      <span className="font-mono text-steel/40 text-xs">Tuition $6,500 + $150 app + $75 materials</span>
                     </div>
-                    <span className="font-mono text-gold font-bold text-base">$4,725</span>
+                    <span className="font-mono text-gold font-bold text-base">$6,725</span>
                   </div>
                   <div className="flex justify-between items-start">
                     <div>
@@ -120,9 +120,9 @@ export default function AdmissionsForm() {
                     <span className="font-mono text-ice text-sm">$8,500</span>
                   </div>
                 </div>
-                {/* CySA+ */}
+                {/* Cyber Ops */}
                 <div className="px-5 py-4">
-                  <p className="font-mono text-gold/70 text-xs tracking-widest mb-3">CYSA+ SOC ANALYST TRACK · 120 HRS</p>
+                  <p className="font-mono text-gold/70 text-xs tracking-widest mb-3">CYBER OPS ANALYST TRACK · 120 HRS</p>
                   <div className="flex justify-between items-start">
                     <div>
                       <span className="font-sans text-steel text-sm block">Direct Enrollment (Self-Pay)</span>
@@ -161,7 +161,7 @@ export default function AdmissionsForm() {
                 ))}
               </div>
               <p className="font-mono text-steel/40 text-xs mt-4 pt-3 border-t border-gold/10">
-                Portfolio deliverables are part of the CySA+ SOC Analyst track.
+                Portfolio deliverables are part of the Cyber Ops Analyst track.
               </p>
             </div>
           </div>
@@ -261,7 +261,7 @@ export default function AdmissionsForm() {
                       >
                         <option value="" disabled>Select a program</option>
                         <option value="security_plus">Security+ Certification Readiness</option>
-                        <option value="cysa_plus">Cybersecurity Operations Analyst Skills (CySA+)</option>
+                        <option value="cysa_plus">Cybersecurity Operations Analyst Skills</option>
                         <option value="undecided">Undecided - Would like guidance</option>
                       </select>
                     </div>
