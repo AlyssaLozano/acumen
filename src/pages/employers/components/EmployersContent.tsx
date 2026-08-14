@@ -1,6 +1,7 @@
 import { useState, FormEvent } from 'react';
 import { submitToFormspree } from '../../../config/formspree';
 
+
 const partnershipTypes = [
   {
     icon: 'ri-user-received-2-line',
@@ -223,7 +224,8 @@ export default function EmployersContent() {
                     </span>
                   </div>
 
-                  <form                    id="employers-partnership-form"
+                  <form
+                    id="employers-partnership-form"
                     onSubmit={handleSubmit}
                     className="space-y-4"
                   >

@@ -1,6 +1,7 @@
 import { useState, FormEvent } from 'react';
 import { submitToFormspree } from '../../../config/formspree';
 
+
 const steps = [
   {
     num: '01',
@@ -198,7 +199,8 @@ export default function AdmissionsForm() {
                     </span>
                   </div>
 
-                  <form                    id="admissions-application-form"
+                  <form
+                    id="admissions-application-form"
                     onSubmit={handleSubmit}
                     className="space-y-5"
                   >
