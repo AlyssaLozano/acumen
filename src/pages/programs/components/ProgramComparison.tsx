@@ -230,7 +230,7 @@ export default function ProgramComparison() {
               { item: 'Application Fee', sp: '$150', cy: '$150', note: 'Non-refundable', total: false },
               { item: 'Books / Materials', sp: '$75', cy: '$75', note: 'Billed at enrollment', total: false },
               { item: 'Program Total', sp: '$6,725', cy: '$4,725', note: '', total: true },
-              { item: 'Optional Certification Vouchers', sp: 'CompTIA Security+ - $404', cy: ['Blue Team Level 1 (BTL1) - $400', 'CCNA Cybersecurity (200-201) - $300'], note: 'Purchased separately', total: false },
+              { item: 'Optional Certification Vouchers', sp: 'CompTIA Security+', cy: ['Blue Team Level 1 (BTL1)', 'CCNA Cybersecurity (200-201)'], note: 'Additional charge paid to the certification provider', total: false },
               { item: 'Exam Fees', sp: 'Not included', cy: 'Not included', note: 'Student responsibility', total: false },
             ].map((row, i) => {
               const cellClass = (val: string, total: boolean) =>
