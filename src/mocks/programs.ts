@@ -31,9 +31,9 @@ export const programs = [
     id: 'cysa',
     slug: 'cybersecurity-operations-analyst',
     badge: '8 Weeks · 120 Clock Hours',
-    certification: 'Blue Team Level 1 (BTL1) & CCNA Cybersecurity (200-201)',
+    certification: 'Blue Team Level 1 (BTL1), Security Blue Team & Cisco CCNA Cybersecurity (200-201)',
     title: 'Cybersecurity Operations Analyst Skills Program',
-    subtitle: 'Blue Team Level 1 (BTL1) & CCNA Cybersecurity (200-201)',
+    subtitle: 'Blue Team Level 1 (BTL1), Security Blue Team & Cisco CCNA Cybersecurity (200-201)',
     description:
       'An intensive, hands-on SOC Analyst track built for adults who need real skills fast - aligned to the Blue Team Level 1 (BTL1) certification from Security Blue Team and the CCNA Cybersecurity (200-201) certification from Cisco. Train on Splunk, Sigma, n8n, TheHive, Wireshark, and Chainsaw. Graduate with a verifiable portfolio - not just a certificate.',
     duration: '8 Weeks · 120 Clock Hours',

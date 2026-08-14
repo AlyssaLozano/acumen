@@ -71,7 +71,7 @@ const faqs = [
   },
   {
     q: 'Which Acumen program is eligible for workforce-sponsored enrollment?',
-    a: 'Currently, the CompTIA Security+ Certification Readiness Program is available under the workforce-sponsored enrollment pathway. Tuition under this pathway is $8,500, which includes the expanded career support services package.',
+    a: 'Currently, the Cybersecurity Practitioner Program (CompTIA Security+) is available under the workforce-sponsored enrollment pathway. Tuition under this pathway is $8,500, which includes the expanded career support services package.',
   },
   {
     q: 'Why is workforce-sponsored tuition higher than direct enrollment?',
@@ -127,17 +127,17 @@ export default function Workforce() {
               </h1>
 
               <p className="font-sans text-steel text-lg leading-relaxed mb-6 reveal-element">
-                Eligible students may be able to attend the Security+ Certification Readiness Program
+                Eligible students may be able to attend the Cybersecurity Practitioner Program
                 at no out-of-pocket cost through WorkSource Georgia and WIOA workforce funding.
-                8 weeks. Live instructor-led. $4,725 direct - or $0 out-of-pocket if you qualify.
+                12 weeks. Live instructor-led. $6,725 direct - or $0 out-of-pocket if you qualify.
                 The workforce-sponsored pathway includes expanded career support services designed
                 to get you employed - not just trained.
               </p>
 
               <div className="flex flex-wrap gap-3 mb-8 reveal-element">
                 {[
-                  { icon: 'ri-price-tag-3-line', text: '$4,725 Direct · $0 if WIOA Approved' },
-                  { icon: 'ri-time-line', text: '8 Weeks' },
+                  { icon: 'ri-price-tag-3-line', text: '$6,725 Direct · $0 if WIOA Approved' },
+                  { icon: 'ri-time-line', text: '12 Weeks' },
                   { icon: 'ri-live-line', text: 'Live Instructor-Led' },
                   { icon: 'ri-shield-check-line', text: 'WIOA Approved Provider' },
                 ].map((b) => (
@@ -212,7 +212,7 @@ export default function Workforce() {
                   <div className="space-y-0 divide-y divide-gold/10">
                     <div className="py-3.5 flex items-center justify-between">
                       <span className="font-sans text-steel text-sm">Program</span>
-                      <span className="font-sans text-ice text-sm font-medium">Security+ Readiness · 8 Weeks</span>
+                      <span className="font-sans text-ice text-sm font-medium">Cybersecurity Practitioner · 12 Weeks</span>
                     </div>
                     <div className="py-3.5 flex items-center justify-between">
                       <span className="font-sans text-steel text-sm">Program Length</span>
@@ -221,9 +221,9 @@ export default function Workforce() {
                     <div className="py-3.5 flex items-start justify-between gap-4">
                       <div>
                         <span className="font-sans text-steel text-sm block">Direct Enrollment (Self-Pay)</span>
-                        <span className="font-mono text-steel/40 text-xs">Tuition $4,500 + $150 app + $75 materials</span>
+                        <span className="font-mono text-steel/40 text-xs">Tuition $6,500 + $150 app + $75 materials</span>
                       </div>
-                      <span className="font-display text-ice text-lg font-bold shrink-0">$4,725</span>
+                      <span className="font-display text-ice text-lg font-bold shrink-0">$6,725</span>
                     </div>
                     <div className="py-3.5 flex items-start justify-between gap-4 bg-gold/3 -mx-8 px-8">
                       <div>
@@ -304,7 +304,7 @@ export default function Workforce() {
                   </h3>
                   <p className="font-sans text-steel text-sm leading-relaxed mb-6">
                     Whether you enroll directly or through WIOA, the Security+ program is identical:
-                    8 weeks, live instructor-led sessions, real tools, and a credential that opens doors
+                    12 weeks, live instructor-led sessions, real tools, and a credential that opens doors
                     in federal, defense, healthcare, and financial sectors.
                   </p>
                   <div className="space-y-3">
@@ -337,9 +337,9 @@ export default function Workforce() {
                           <p className="font-display font-bold text-ice text-base">Direct Enrollment</p>
                           <p className="font-sans text-steel text-xs mt-0.5">Pay directly · no eligibility required</p>
                         </div>
-                        <span className="font-display text-ice font-bold text-xl shrink-0">$4,725</span>
+                        <span className="font-display text-ice font-bold text-xl shrink-0">$6,725</span>
                       </div>
-                      <p className="font-mono text-steel/50 text-xs">Tuition $4,500 + $150 app + $75 materials</p>
+                      <p className="font-mono text-steel/50 text-xs">Tuition $6,500 + $150 app + $75 materials</p>
                     </div>
                     <div className="p-5 rounded-xl border border-gold/30 bg-gold/5">
                       <div className="flex items-start justify-between gap-4 mb-2">
