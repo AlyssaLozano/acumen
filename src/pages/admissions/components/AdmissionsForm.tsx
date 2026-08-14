@@ -260,8 +260,8 @@ export default function AdmissionsForm() {
                         style={{ color: selectedProgram ? '#e8eaf0' : '#6b7a99' }}
                       >
                         <option value="" disabled>Select a program</option>
-                        <option value="security_plus">Security+ Certification Readiness</option>
-                        <option value="cysa_plus">Cybersecurity Operations Analyst Skills</option>
+                        <option value="security_plus">Cybersecurity Practitioner Program</option>
+                        <option value="cyber_ops">Cybersecurity Operations Analyst Skills</option>
                         <option value="undecided">Undecided - Would like guidance</option>
                       </select>
                     </div>
