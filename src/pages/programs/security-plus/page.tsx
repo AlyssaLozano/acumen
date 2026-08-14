@@ -1,3 +1,4 @@
+import { setPageSeo } from '../../../lib/seo';
 import { useEffect, useMemo } from 'react';
 import Navbar from '../../../components/feature/Navbar';
 import Footer from '../../../components/feature/Footer';
@@ -27,6 +28,7 @@ export default function SecurityPlusPage() {
   useEffect(() => {
     document.title =
       'Cybersecurity Practitioner Program | Acumen Career Academy - Augusta, Georgia Cybersecurity Training';
+    setPageSeo("CompTIA Security+ certification training, live online or in Augusta, GA. 12-week instructor-led Cybersecurity Practitioner Program with hands-on labs. GNPEC-licensed.");
   }, []);
 
   const schema = useMemo(

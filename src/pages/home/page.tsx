@@ -1,3 +1,4 @@
+import { setPageSeo } from '../../lib/seo';
 import { useEffect } from 'react';
 import Navbar from '../../components/feature/Navbar';
 import Footer from '../../components/feature/Footer';
@@ -16,7 +17,8 @@ export default function Home() {
   useScrollReveal();
 
   useEffect(() => {
-    document.title = 'Acumen Career Academy | Cybersecurity Training Augusta, Georgia';
+    document.title = 'Online Cybersecurity Training + Augusta, GA | Acumen Career Academy';
+    setPageSeo("Live, instructor-led cybersecurity training you can take online or in Augusta, GA. CompTIA Security+ and SOC Analyst (Blue Team Level 1 and Cisco CCNA) programs. GNPEC-licensed, job-ready in 8-12 weeks.");
   }, []);
 
   return (

@@ -1,3 +1,4 @@
+import { setPageSeo } from '../../lib/seo';
 import { useEffect } from 'react';
 import Navbar from '../../components/feature/Navbar';
 import Footer from '../../components/feature/Footer';
@@ -10,6 +11,7 @@ export default function Employers() {
 
   useEffect(() => {
     document.title = 'Employer Partnerships | Acumen Career Academy - Hire Cybersecurity Analysts Augusta, Georgia';
+    setPageSeo("Hire job-ready cybersecurity analysts from Acumen Career Academy. Graduate hiring, sponsored training, and WIOA workforce partnerships in Augusta, GA and online.");
   }, []);
 
   return (

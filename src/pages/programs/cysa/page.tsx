@@ -1,3 +1,4 @@
+import { setPageSeo } from '../../../lib/seo';
 import { useEffect, useMemo } from 'react';
 import Navbar from '../../../components/feature/Navbar';
 import Footer from '../../../components/feature/Footer';
@@ -27,6 +28,7 @@ export default function CysaPage() {
   useEffect(() => {
     document.title =
       'Cybersecurity Operations Analyst Skills Program | Acumen Career Academy - SOC Training Augusta, GA';
+    setPageSeo("SOC Analyst training online and in Augusta, GA. 8-week Cyber Operations program aligned to Blue Team Level 1 (BTL1) and Cisco CCNA, with a real portfolio. GNPEC-licensed.");
   }, []);
 
   const schema = useMemo(

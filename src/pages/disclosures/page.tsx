@@ -1,3 +1,4 @@
+import { setPageSeo } from '../../lib/seo';
 import { Link } from 'react-router-dom';
 import Navbar from '../../components/feature/Navbar';
 import Footer from '../../components/feature/Footer';
@@ -87,7 +88,7 @@ const sections = [
   {
     id: 'forteisenhhower',
     icon: 'ri-map-pin-2-line',
-    title: 'Proximity Statements \u2014 Fort Eisenhower',
+    title: 'Proximity Statements - Fort Eisenhower',
     content: [
       'References to proximity to Fort Eisenhower (Formerly Fort Gordon) are made solely to describe the geographic location of Acumen Career Academy\'s service area and the regional employment market.',
       'Acumen Career Academy has no affiliation with, endorsement from, or authorization by the United States Army, Fort Eisenhower, US Army Cyber Command (ARCYBER), or any branch of the United States federal government.',
@@ -116,7 +117,8 @@ export default function Disclosures() {
   useScrollReveal();
 
   useEffect(() => {
-    document.title = 'Disclosures & Policies | Acumen Career Academy \u2014 Augusta, Georgia';
+    document.title = 'Disclosures & Policies | Acumen Career Academy - Augusta, Georgia';
+    setPageSeo("Institutional disclosures, tuition, and policies for Acumen Career Academy, a GNPEC-licensed cybersecurity training institution in Augusta, GA.");
   }, []);
 
   return (

@@ -1,3 +1,4 @@
+import { setPageSeo } from '../../lib/seo';
 import { Link } from 'react-router-dom';
 import { useEffect } from 'react';
 import Navbar from '../../components/feature/Navbar';
@@ -92,6 +93,7 @@ export default function Workforce() {
 
   useEffect(() => {
     document.title = 'Workforce Funding & WIOA | Acumen Career Academy - WorkSource Georgia Approved Training';
+    setPageSeo("WIOA and WorkSource Georgia-approved cybersecurity training. Eligible students may train at $0 out-of-pocket, live online or in Augusta, GA.");
   }, []);
 
   return (

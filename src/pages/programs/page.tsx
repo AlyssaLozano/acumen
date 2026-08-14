@@ -1,3 +1,4 @@
+import { setPageSeo } from '../../lib/seo';
 import { useEffect, useMemo } from 'react';
 import Navbar from '../../components/feature/Navbar';
 import Footer from '../../components/feature/Footer';
@@ -13,6 +14,7 @@ export default function Programs() {
 
   useEffect(() => {
     document.title = 'Programs | Acumen Career Academy - CompTIA Security+ & Blue Team Level 1 Training';
+    setPageSeo("Compare Acumen's two live cybersecurity programs: the CompTIA Security+ Practitioner track and the SOC Analyst track (Blue Team Level 1 and Cisco CCNA). Online or in Augusta, GA.");
   }, []);
 
   const faqSchema = useMemo(

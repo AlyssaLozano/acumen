@@ -1,3 +1,4 @@
+import { setPageSeo } from '../../lib/seo';
 import { useEffect } from 'react';
 import Navbar from '../../components/feature/Navbar';
 import Footer from '../../components/feature/Footer';
@@ -11,6 +12,7 @@ export default function Admissions() {
 
   useEffect(() => {
     document.title = 'Admissions & Enrollment | Acumen Career Academy - Cybersecurity Training Augusta, Georgia';
+    setPageSeo("Apply to Acumen Career Academy. Enrollment steps, tuition, and cohort dates for our online and Augusta, GA cybersecurity programs (Security+ and SOC Analyst).");
   }, []);
 
   return (

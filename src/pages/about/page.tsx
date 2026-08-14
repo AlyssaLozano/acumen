@@ -1,3 +1,4 @@
+import { setPageSeo } from '../../lib/seo';
 import { useEffect } from 'react';
 import Navbar from '../../components/feature/Navbar';
 import Footer from '../../components/feature/Footer';
@@ -16,6 +17,7 @@ export default function About() {
 
   useEffect(() => {
     document.title = 'About | Acumen Career Academy - Cybersecurity Training Institution Augusta, Georgia';
+    setPageSeo("Acumen Career Academy is a GNPEC-licensed cybersecurity training institution in Augusta, GA, offering live online programs built by a former NSA professional.");
   }, []);
 
   return (

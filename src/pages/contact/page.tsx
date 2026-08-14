@@ -1,3 +1,4 @@
+import { setPageSeo } from '../../lib/seo';
 import { useEffect } from 'react';
 import Navbar from '../../components/feature/Navbar';
 import Footer from '../../components/feature/Footer';
@@ -10,6 +11,7 @@ export default function Contact() {
 
   useEffect(() => {
     document.title = 'Contact Us | Acumen Career Academy - Cybersecurity Training Augusta, Georgia';
+    setPageSeo("Contact Acumen Career Academy in Augusta, GA. Questions about our online cybersecurity training, admissions, or cohorts? We're happy to help.");
   }, []);
 
   return (
